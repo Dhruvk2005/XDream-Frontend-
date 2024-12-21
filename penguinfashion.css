@@ -1,0 +1,331 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", system-ui;
+}
+
+.logo img {
+    height: 60px;
+    width: 60px;
+
+
+}
+
+.logo {
+
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo p1 {
+    color: rgb(1, 101, 250);
+    padding: 4px;
+
+}
+
+.logo p2 {
+    color: rgb(255, 121, 5);
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
+    background-color: white;
+
+
+}
+
+.content nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-weight: bold;
+
+}
+
+.hero {
+    background-color: brown;
+}
+
+.hero {
+    display: flex;
+
+}
+
+.hero .side {
+    justify-content: center;
+    align-items: center;
+}
+
+.shoes img {
+
+    height: 600px;
+    width: auto;
+    margin-left: 150px;
+
+}
+
+.side {
+    margin-top: 10%;
+    margin-left: 90px;
+
+}
+
+.side h3 {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.side p {
+    font-size: 40px;
+}
+
+.side span {
+    background-color: rgb(255, 121, 5);
+    color: white;
+}
+
+.side h3 {
+    color: white;
+}
+
+.side p {
+    color: white;
+}
+
+.side .btn {
+    background-color: rgb(1, 101, 250);
+    color: white;
+    border: 10px solid brown;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+
+}
+
+.btn button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(1, 138, 250);
+}
+
+
+.side .btn img {
+    height: 20px;
+    padding: 10px;
+    filter: invert(100%);
+
+}
+
+.casual h4 {
+
+    font-weight: bold;
+    margin-left: 80px;
+    margin-top: 30px;
+    color: rgb(12, 13, 14);
+    font-size: 30px;
+    padding: 30px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.box1 {
+    height: 440px;
+    width: 300px;
+    padding: 30px;
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 5px rgb(228, 227, 227));
+    background-color: white;
+}
+
+.box1 img {
+    height: 300px;
+    width: auto;
+}
+
+.box1 span {
+    font-weight: 600;
+    font-size: 30px;
+
+}
+
+.box1 span h3 {
+    margin-top: 15px;
+}
+
+.box1 button {
+    background-color: rgb(1, 101, 250);
+    color: white;
+    border: 2px solid white;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+
+
+}
+
+
+.box2 {
+    height: 440px;
+    width: 300px;
+    padding: 30px;
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 5px rgb(228, 227, 227));
+    background-color: white;
+}
+
+.box2 img {
+    height: 300px;
+    width: auto;
+
+}
+
+.box2 span {
+    font-weight: 600;
+    font-size: 30px;
+
+}
+
+.box2 span h3 {
+    margin-top: 15px;
+}
+
+.box2 button {
+    background-color: rgb(1, 101, 250);
+    color: white;
+    border: 2px solid white;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+
+
+}
+
+
+.box3 {
+    height: 440px;
+    width: 300px;
+    padding: 30px;
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 5px rgb(228, 227, 227));
+    background-color: white;
+
+}
+
+.box3 img {
+    height: 300px;
+    width: auto;
+
+}
+
+.box3 span {
+    font-weight: 600;
+    font-size: 30px;
+
+
+}
+
+.container span {
+    display: flex;
+}
+
+.box3 button {
+    background-color: rgb(1, 101, 250);
+    border-radius: 10px solid rgb(66, 33, 33);
+    color: white;
+    border: 2px solid white;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.box3 span h3 {
+    margin-top: 15px;
+}
+
+footer {
+    display: flex;
+    margin-top: 100px;
+}
+
+.rowsboxes {
+    margin-top: 100px;
+
+
+
+}
+
+.rowsboxes img {
+    height: 100px;
+}
+
+.row1 {
+    display: flex;
+    background-color: white;
+    filter:drop-shadow(5px 5px 5px rgb(228, 227, 227)) ;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-align: center;
+
+
+
+}
+
+
+.row2 {
+    display: flex;
+    background-color: white;
+    filter:drop-shadow(5px 5px 5px rgb(228, 227, 227)) ;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.row3 {
+    display: flex;
+    background-color: white;
+    filter:drop-shadow(5px 5px 5px rgb(228, 227, 227)) ;
+    border-radius: 10px;
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: center;
+
+
+
+}
+.lastimg img{
+    height: 500px;
+    width: auto;
+}
